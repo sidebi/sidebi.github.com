@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>MAD ORCA Inc</title>
+	<meta name="author" content="Jin" />
+	<meta name="description" content="MADORCA INC" />
+	<meta name="keywords"  content="mobile game,orca,game.mobile,korea,service" />
+	<meta name="Resource-type" content="Document" />
+
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300,400,700" />
+	<link rel="stylesheet" type="text/css" href="js/jquery.pagepiling.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+	    	$('#pagepiling').pagepiling({
+			    sectionsColor: ['#D31996', '#1693A5', '#556270'],
+			    navigation: {
+			    	'position': 'right',
+			   		'tooltips': ['Intro', 'Who we are', 'Contact us']
+			   	}
+			});
+	    });
+    </script>
+</head>
+<body>
+	<div style="position:fixed;top:50px;left:50px;color:white;z-index:999;" id="callbacksDiv"></div>
+
+	<div id="pagepiling">
+	    <div class="section" id="section1">
+			<div class ="hi">
+		    	<h1>MADORCA Inc</h1>
+				<p>Bring madfun to worldwide</p>
+			</div>
+	    </div>
+	    <div class="section" id="section2">
+	    	<div class="intro">
+	    		<h1>Who we are</h1>
+				<p>we are ORCA! mad professionals</p>
+	    	</div>
+	    </div>
+	    <div class="section" id="section4">
+	    	<div class="intro">
+	    		<h1>Contact us</h1>
+	    		<a href ="mailto:contact@madorca.com"><p>Ask us</p></a>
+	    		<a href ="http://madorca.yuku.com/forums/66#.VEcNApOsVlg"><p>Board</p></a>
+	    	</div>
+	    </div>
+	  </div>
+
+</body>
+</html>
